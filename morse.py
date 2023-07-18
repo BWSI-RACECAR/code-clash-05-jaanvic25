@@ -111,7 +111,10 @@ class Solution:
             solution = ""
             temp = ""
             for i in message.upper():
-                 solution += MORSE_CODE_DICT[i]
+                 if i == " ":
+                    solution += " "
+                 else:
+                    solution += MORSE_CODE_DICT[i]
                  solution += " "
             return solution
                 
