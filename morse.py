@@ -115,7 +115,7 @@ class Solution:
                     solution += " "
                  else:
                     solution += MORSE_CODE_DICT[i]
-                 solution += " "
+                 	solution += " "
             return solution
                 
                  
